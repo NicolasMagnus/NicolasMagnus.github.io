@@ -12,6 +12,7 @@ body {
 
  #Meunome {
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
  }
 
  #Coratras {
@@ -22,8 +23,23 @@ body {
     font-style: italic;
  }
 
+.Habilidades {
+    font-size: medium;
+}
+
  #final {
     background-color: gray;
     color: whitesmoke;
     font-size: 2em;
  }
+
+ a {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: small;
+    font-style: italic;
+ }
+
+ #Blog {
+    font-weight: bold;
+ }
+ 
