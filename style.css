@@ -4,34 +4,27 @@ body {
 }
 
 #Minhafoto {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;
+   float: left;
+   padding: 20px;
 }
 
  #Meunome {
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
- }
-
- #Coratras {
-    background-color: gray;
- }
-
- #Meunome {
     font-style: italic;
  }
 
-.Habilidades {
-    font-size: medium;
+#descrisao {
+   margin-left: auto;
+   margin-right: auto;
+   position: absolute;
+   border: 5px solid black;
+   padding: 10px;
 }
 
- #final {
-    background-color: gray;
-    color: whitesmoke;
-    font-size: 2em;
- }
+.Habilidades ul li:nth-child(odd){
+   font-style: italic;
+}
 
  a {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -39,7 +32,8 @@ body {
     font-style: italic;
  }
 
- #Blog {
+ #Blog p {
+   font-size: large;
     font-weight: bold;
  }
  
